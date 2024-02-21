@@ -137,7 +137,7 @@ body {
     padding: 0;
     padding-bottom: 9em;
     color: #494e52;
-    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    font-family: Arial;
     line-height:1.5
 }
 
@@ -148,7 +148,7 @@ body.overflow--hidden {
 h1, h2, h3, h4, h5, h6 {
     margin: 2em 0 0.5em;
     line-height: 1.2;
-    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    font-family: Arial;
     font-weight:bold
 }
 
@@ -213,12 +213,12 @@ blockquote {
     margin: 2em 1em 2em 0;
     padding-left: 1em;
     padding-right: 1em;
-    font-style: italic;
+    font-style: Arial;
     border-left:0.25em solid #7a8288
 }
 
 blockquote cite {
-    font-style:italic
+    font-style:Arial
 }
 
 blockquote cite:before {
@@ -231,7 +231,7 @@ a:hover, a:active {
 }
 
 tt, code, kbd, samp, pre {
-    font-family: Monaco, Consolas, "Lucida Console", monospace
+    font-family: Arial
 }
 
 pre {
@@ -317,7 +317,7 @@ figure.third figcaption {
 figcaption {
     margin-bottom: 0.5em;
     color: #777a7d;
-    font-family: Georgia, Times, serif;
+    font-family: Arial;
     font-size:.75em
 }
 
@@ -408,7 +408,7 @@ body:hover .visually-hidden a, body:hover .visually-hidden input, body:hover .vi
     position: fixed;
     z-index: 20;
     margin: 0;
-    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    font-family: Arial;
     white-space:nowrap
 }
 
@@ -768,7 +768,7 @@ a.reversefootnote:hover {
 table {
     margin-bottom: 1em;
     width: 100%;
-    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    font-family: Arial;
     font-size: .75em;
     border-collapse: collapse;
     border:1px solid #bdc1c4
@@ -805,7 +805,7 @@ tr, td, th {
     margin-bottom: 0.25em;
     padding: 0.5em 1em;
     color: #fff !important;
-    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    font-family: Arial;
     font-size: .75em;
     font-weight: bold;
     text-align: center;
@@ -940,7 +940,7 @@ tr, td, th {
 .notice {
     margin: 2em 0 !important;
     padding: 1em;
-    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    font-family: Arial;
     font-size: .75em !important;
     text-indent: initial;
     background-color: #f8f9f9;
@@ -986,7 +986,7 @@ tr, td, th {
 .notice--primary {
     margin: 2em 0 !important;
     padding: 1em;
-    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    font-family: Arial;
     font-size: .75em !important;
     text-indent: initial;
     background-color: #f2f3f3;
@@ -1032,7 +1032,7 @@ tr, td, th {
 .notice--info {
     margin: 2em 0 !important;
     padding: 1em;
-    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    font-family: Arial;
     font-size: .75em !important;
     text-indent: initial;
     background-color: #eef7fa;
@@ -1078,7 +1078,7 @@ tr, td, th {
 .notice--warning {
     margin: 2em 0 !important;
     padding: 1em;
-    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    font-family: Arial;
     font-size: .75em !important;
     text-indent: initial;
     background-color: #fef4e6;
@@ -1124,7 +1124,7 @@ tr, td, th {
 .notice--success {
     margin: 2em 0 !important;
     padding: 1em;
-    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    font-family: Arial;
     font-size: .75em !important;
     text-indent: initial;
     background-color: #eff9ef;
@@ -1170,7 +1170,7 @@ tr, td, th {
 .notice--danger {
     margin: 2em 0 !important;
     padding: 1em;
-    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    font-family: Arial;
     font-size: .75em !important;
     text-indent: initial;
     background-color: #fdefef;
@@ -1229,7 +1229,7 @@ tr, td, th {
     margin-right: auto;
     clear: both;
     padding: 1em 1em 1em;
-    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif
+    font-family: Arial
 }
 
 .masthead__inner-wrap:after {
@@ -1285,7 +1285,7 @@ tr, td, th {
     margin-bottom: 0;
     padding-left: 2em;
     padding-right: 2em;
-    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    font-family: Arial;
     -webkit-animation: intro 0.3s both;
     animation: intro 0.3s both;
     -webkit-animation-delay: 0.30s;
@@ -1366,7 +1366,7 @@ tr, td, th {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif
+    font-family: Arial
 }
 
 .pagination li {
@@ -1378,7 +1378,7 @@ tr, td, th {
 .pagination li a {
     margin-bottom: 0.25em;
     padding: 0.5em 1em;
-    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    font-family: Arial;
     font-size: 14px;
     font-weight: bold;
     line-height: 1.5;
@@ -1423,7 +1423,7 @@ tr, td, th {
     padding: 1em 2em;
     float: left;
     width: 50%;
-    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    font-family: Arial;
     font-size: 1em;
     font-weight: bold;
     text-align: center;
@@ -1629,7 +1629,7 @@ tr, td, th {
 .nav__title {
     margin: 0;
     padding: 0.5rem 1rem;
-    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    font-family: Arial;
     font-size: 1em;
     font-weight:bold
 }
@@ -1638,7 +1638,7 @@ tr, td, th {
     display: block;
     margin: 0.5rem 0;
     padding: 0.5rem 0;
-    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    font-family: Arial;
     font-size: .75em;
     font-weight: bold;
     text-transform: uppercase;
@@ -1646,7 +1646,7 @@ tr, td, th {
 }
 
 .toc {
-    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    font-family: Arial;
     color: #7a8288;
     text-transform: uppercase;
     letter-spacing: 1px;
